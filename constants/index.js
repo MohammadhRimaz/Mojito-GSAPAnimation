@@ -55,7 +55,7 @@ const mockTailLists = [
     name: "Passionfruit Mint",
     country: "US",
     detail: "Battle",
-    price: "$49",
+    price: "$39",
   },
   {
     name: "Citrus Glow",
@@ -67,7 +67,7 @@ const mockTailLists = [
     name: "Lavender Fizz",
     country: "IE",
     detail: "600 ml",
-    price: "$29",
+    price: "$49",
   },
 ];
 
