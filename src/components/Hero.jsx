@@ -73,11 +73,31 @@ const Hero = () => {
       },
     });
 
-    videoRef.current.onloadedmetadata = () => {
-      tl.to(videoRef.current, {
-        currentTime: videoRef.current.duration,
-      });
-    };
+    if (!isMobile) {
+      videoRef.current.onloadedmetadata = () => {
+        tl.to(videoRef.current, {
+          currentTime: videoRef.current.duration,
+        });
+      };
+    } else {
+      // Just autoplay or fade-in for mobile users
+      videoRef.current.play();
+
+      gsap.fromTo(
+        videoRef.current,
+        { opacity: 0 },
+        {
+          opacity: 1,
+          duration: 1.2,
+          scrollTrigger: {
+            trigger: "video",
+            start: "top 80%",
+            end: "top 60%",
+            scrub: true,
+          },
+        }
+      );
+    }
   }, []);
 
   return (
