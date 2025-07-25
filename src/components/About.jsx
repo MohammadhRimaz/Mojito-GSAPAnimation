@@ -4,7 +4,7 @@ import { SplitText } from "gsap/all";
 
 const About = () => {
   useGSAP(() => {
-    const titleSplit = SplitText.create("#about h2", {
+    const titleSplit = SplitText.create("#about h2, p", {
       type: "words",
     });
 
