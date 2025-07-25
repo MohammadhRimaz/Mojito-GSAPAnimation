@@ -45,7 +45,7 @@ The goal was not only to build a visually appealing site but also to test and pu
 
 ## 🚀 Deployment Link
 
-👉 [Live Website on Vercel](https://your-vercel-project-url.vercel.app)
+👉 [Live Website on Vercel](https://velvet-pour-bar.vercel.app/)
 
 ---
 
