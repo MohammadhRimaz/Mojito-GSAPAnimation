@@ -78,5 +78,5 @@ This will start the Vite development server. Open your browser and navigate to h
 
 This project stands as a small tribute to the intersection of code and creativity. It reflects my growing passion for frontend artistry and my curiosity to bring interactive, animated experiences to life on the web. Feedback is always welcome!
 
-Cheers,
+Cheers,  
 Mohammadh Rimaz
