@@ -10,7 +10,7 @@ Welcome to the Velvet Pour – a creative and immersive one-page website designe
 - **Hero Section with Mojito Scroll Effect**: As users scroll, a mojito drink is animated into view, followed by a falling ice cube video synced with scroll.
 - **FFmpeg Frame-by-Frame Video Scroll**: Ice cube fall rendered using video frames for buttery-smooth performance.
 - **Masked Image Animations**: Stylish image reveals and transitions using CSS masks and JavaScript.
-- **Responsive Design**: Optimized for desktop and tablet devices.
+- **Responsive Design**: Optimized for all devices.
 - **Five Interactive Sections**:
   - Hero
   - Cocktails
