@@ -60,14 +60,14 @@ const Hero = () => {
       );
 
     const startValue = isMobile ? "top 50%" : "center 60%"; // When the top of the video reaches 50% down the viewport on mobile and 60% on larger screens, then aniamtion will start
-    const endValue = isMobile ? "120% top" : "bottom top"; // When the top of the video passes 120% top of the screen on mobile and bottom of the video reaches the top the larger screen, then animation will end
-
+    const endValue = isMobile ? "bottom bottom" : "bottom bottom"; // Ends when #cocktails bottom hits bottom of viewport
     // Video animate timeline
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: "video",
         start: startValue,
         end: endValue,
+        endTrigger: "#cocktails", // END depends on this section!
         scrub: true,
         pin: true, // Pin the video during the scroll
       },
