@@ -2,6 +2,8 @@
 
 Welcome to the Velvet Pour – a creative and immersive one-page website designed and developed using **React** and **Vite**. This project was crafted as part of my web development learning journey, with a focus on exploring scroll-based animations, visual storytelling, and video-to-frame animations using **GSAP** and **FFmpeg**.
 
+![Demo](./public/images/Velvet%20Pour%20Thumbnail.gif)
+
 ---
 
 ## ✨ Features
